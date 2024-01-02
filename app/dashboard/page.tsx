@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import SideNav from '@/app/ui/dashboard/sidenav';
 
-function Layout({ children }: { children: React.ReactNode }) {
+function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
       <div className="w-full flex-none md:w-64">
