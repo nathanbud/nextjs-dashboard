@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import SideNav from '@/app/ui/dashboard/sidenav';
 
 function Layout({ children }: { children: React.ReactNode }) {
